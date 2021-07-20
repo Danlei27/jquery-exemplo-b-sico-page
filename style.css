@@ -1,0 +1,137 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    align-content: center;
+}
+a{
+ text-decoration: none;   
+ margin-right: 20px;
+ color: #b4b4b4;
+}
+label{
+    color: #fff;
+    font-size: 34;
+}
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #858585;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 11,5px;
+    padding-bottom: 30px;
+}
+#slider{
+    display: flex;
+    width: 100%;
+    background-color: #d1d1d1;
+    height: 290px;
+    justify-content: center;
+}
+#geral{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#shape{
+    width: 70%;
+}
+#tell{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: #020085;
+    justify-content: flex-end;
+    align-items: center;
+}
+#textTel2{
+    color: #fff;
+    font-size: 34;
+    padding-right: 14px;
+}
+#textTel{
+    color: #fff;
+    font-size: 34;
+    padding-right: 16%;
+}
+.content{
+    color: #b4b4b4;
+    align-self: start;
+}
+
+#containerMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 15%;
+    align-items: flex-end;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+}
+#imagemTollbar{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15%;
+    width: 120px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #020085;
+    margin-bottom: 10px;
+}
+
+#highlights{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+#imagemFake325x212{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;   
+    margin-right: 10px;
+    width: 325px;
+    height: 212px;
+    align-self: flex-end;
+    background-color: #020085;
+}
+.imagemFake196x163{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;   
+    margin-right: 10px;
+    width: 196px;
+    height: 163px;
+    background-color: #020085;
+}
+
+#textLink{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;   
+    list-style-type: none;
+    
+}
+
+#textLink li{
+    width: 196px;
+    height: 163px;
+    display: flex;
+    align-self: flex-start;
+
+}
+#labelFooter{
+    color: #fff;
+    font-size: 34;
+    align-self: center;
+}
